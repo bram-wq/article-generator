@@ -22,3 +22,6 @@ npm run check
 ```
 
 Deployment is handled by GitHub Actions to GitHub Pages on pushes to `main`.
+
+## Tanpa API: ChatGPT Project
+Folder [`chatgpt-project/`](chatgpt-project/) berisi instruksi dan enam file sumber untuk membuat Project "ARTICLE GENERATOR" di ChatGPT. Artikel ditulis oleh ChatGPT sendiri di dalam Project itu, tanpa API key. Cara pasang ada di [`chatgpt-project/README.md`](chatgpt-project/README.md).
