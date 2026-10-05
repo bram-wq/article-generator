@@ -8,7 +8,8 @@ Static React + TypeScript + Vite web app for drafting Markdown articles from a t
 - Optional custom outline
 - Editable Markdown result
 - Copy to clipboard and download `.md`
-- No backend, account, API key, or secret required
+- Two generation modes: Template works without any API key; AI · BYOK uses the user's own OpenAI API key
+- In AI · BYOK mode, the OpenAI API key is stored only in the user's browser localStorage and can be removed from the app
 
 ## Local development
 ```bash
