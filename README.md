@@ -21,7 +21,7 @@ npm run dev
 npm run check
 ```
 
-Deployment is handled by GitHub Actions to GitHub Pages on pushes to `main`.
+Changes go through a pull request: once `test-build` passes, the owner's pull requests are merged automatically and GitHub Actions deploys `main` to GitHub Pages.
 
 ## Tanpa API: ChatGPT Project
 Folder [`chatgpt-project/`](chatgpt-project/) berisi instruksi dan enam file sumber untuk membuat Project "ARTICLE GENERATOR" di ChatGPT. Artikel ditulis oleh ChatGPT sendiri di dalam Project itu, tanpa API key. Cara pasang ada di [`chatgpt-project/README.md`](chatgpt-project/README.md).
